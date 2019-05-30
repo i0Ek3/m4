@@ -1,10 +1,16 @@
-# m4docker
+# m4
+
+> A simple tiny docker.
 
 Do you know the Docker? Yeah, it is a famous container. But honestly, m4docker just a tiny container, I mean it is a demo, in order to learn how container to work.
 
-## Process
 
-- Use clone() to create the child process
+## Points
+
+- Use clone() system call to create the child process
+- Use execvp() to load a program with `/bin/sh`
+- Use clearenv() to remove environment variables
+- Use UTS Linux namespaces 
 - `/sys/fs/cgroup` always use to mount cgfs
 
 
@@ -30,4 +36,7 @@ Do you know the Docker? Yeah, it is a famous container. But honestly, m4docker j
 
     I think containers faster than VM cause of you just run only your process and it's dependencies in container, but in VM, you need to executing a bunch of OS libraries on the top, which need more overhead.
 
+## Credit
+
+Big thanks to César Valdez for his tutorial.
 
