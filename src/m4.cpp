@@ -81,10 +81,10 @@ void clone_process(T&& func, int flags) {
 int create_process(void *args) { // 创建进程
     limit_process_creation(); // 限制进程的创建
     printf("----> Child pid is: %d\n", getpid());
-    set_host_name("m4docker"); // 设置主机名
+    set_host_name("m4"); // 设置主机名
     setup_var(); // 设置环境变量
     setup_root("./root"); // 切换到root路径
-    mount("proc", "/proc", "proc", 0, 0); // 挂在proc文件系统
+    mount("proc", "/proc", "proc", 0, 0); // 挂载proc文件系统
     auto run_ = lambda(run("/bin/sh"))
     clone_process(run_, SIGCHLD); // 复制进程
     umount("/proc"); // 执行完成后卸载proc文件系统

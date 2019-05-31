@@ -2,7 +2,7 @@
 
 > A simple tiny docker.
 
-Do you know the Docker? Yeah, it is a famous container. But honestly, m4docker just a tiny container, I mean it is a demo, in order to learn how container to work.
+Do you know the Docker? Yeah, it is a famous container. But honestly, m4 just a tiny container, I mean it is a demo, in order to learn how container to work.
 
 
 ## Points
@@ -12,6 +12,22 @@ Do you know the Docker? Yeah, it is a famous container. But honestly, m4docker j
 - Use clearenv() to remove environment variables
 - Use UTS Linux namespaces 
 - `/sys/fs/cgroup` always use to mount cgfs
+
+
+## Usage
+
+**Note: You'd better run this program under the Linux.**
+
+You can build this program by `make` command under src/, or run follows command alone:
+
+```Shell
+$ gcc -I ../include m4.cpp -o m4 -std=c++11
+```
+
+
+## Screenshot
+
+![](https://github.com/i0Ek3/m4/tree/master/pic/m4.png)
 
 
 ## Problems
