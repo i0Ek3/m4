@@ -27,7 +27,7 @@ $ gcc -I ../include m4.cpp -o m4 -std=c++11
 
 ## Screenshot
 
-![](https://github.com/i0Ek3/m4/tree/blob/master/pic/m4.png)
+![](https://github.com/i0Ek3/m4/blob/master/pic/m4.png)
 
 
 ## Problems
