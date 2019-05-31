@@ -18,7 +18,7 @@ Do you know the Docker? Yeah, it is a famous container. But honestly, m4 just a 
 
 **Note: You'd better run this program under the Linux.**
 
-You can build this program by `make` command under src/, or run follows command alone:
+You can build this program by `make` command or run follows command alone under the src/:
 
 ```Shell
 $ gcc -I ../include m4.cpp -o m4 -std=c++11
@@ -27,7 +27,7 @@ $ gcc -I ../include m4.cpp -o m4 -std=c++11
 
 ## Screenshot
 
-![](https://github.com/i0Ek3/m4/tree/master/pic/m4.png)
+![](https://github.com/i0Ek3/m4/tree/blob/master/pic/m4.png)
 
 
 ## Problems
