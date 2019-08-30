@@ -54,5 +54,8 @@ $ gcc -I ../include m4.cpp -o m4 -std=c++11
 
 ## Credit
 
-Big thanks to César Valdez for his tutorial.
+Big thanks to César Valdez for his [tutorial](http://cesarvr.github.io/post/2018-05-22-create-containers/).
 
+## References
+
+- [https://www.ibm.com/developerworks/cn/linux/1506_cgroup/index.html](https://www.ibm.com/developerworks/cn/linux/1506_cgroup/index.html)
