@@ -1,9 +1,8 @@
 # m4
 
-> A simple tiny docker.
+A simple tiny container.
 
-Do you know the Docker? Yeah, it is a famous container. But honestly, m4 just a tiny container, I mean it is a demo, in order to learn how container to work.
-
+> Reference partial introduction [here]().
 
 ## Points
 
@@ -58,4 +57,5 @@ Big thanks to César Valdez for his [tutorial](http://cesarvr.github.io/post/201
 
 ## References
 
+- [http://www.alloyteam.com/2019/07/13885/](http://www.alloyteam.com/2019/07/13885/)
 - [https://www.ibm.com/developerworks/cn/linux/1506_cgroup/index.html](https://www.ibm.com/developerworks/cn/linux/1506_cgroup/index.html)
