@@ -38,7 +38,21 @@ Docker 是用 Go 语言进行开发实现的，基于 Linux 内核的 cgroup，n
 
 比如 Docker 的镜像分层，就是通过 AUFS(Advanced Multi-layered unification filesytem) 的分层结构、挂载等方式来是实现的。
 
+## Docker 的优点
+
+- 更快的交付和部署
+- 高效的部署和扩容
+- 高效的资源利用率
+- 管理简单
+
+
 ## 总结
 
 Docker 中，通过 Linux Namespace 进行网络、进程空间、命名空间等资源的隔离，使用 Cgroups 技术对资源的占用、使用量进行限制，使用 AUFS 等存储驱动来实现分层结构、增量更新等能力。
+
+
+## Reference
+
+- [https://kknews.cc/code/k2qpn6p.html](https://kknews.cc/code/k2qpn6p.html)
+- [https://blog.lizzie.io/linux-containers-in-500-loc.html](https://blog.lizzie.io/linux-containers-in-500-loc.html)
 

@@ -2,14 +2,14 @@
 
 A simple tiny container.
 
-> Reference partial introduction [here]().
+> Reference partial introduction [here](https://github.com/i0Ek3/m4/blob/master/doc/intro.md).
 
 ## Points
 
+- Linux namespace/Cgroups/UFS
 - Use clone() system call to create the child process
 - Use execvp() to load a program with `/bin/sh`
 - Use clearenv() to remove environment variables
-- Use UTS Linux namespaces 
 - `/sys/fs/cgroup` always use to mount cgfs
 
 
