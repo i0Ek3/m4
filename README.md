@@ -1,18 +1,20 @@
 # m4
 
-> A simple tiny docker.
+> A tiny container hybird programming by C and C++.
 
-Do you know the Docker? Yeah, it is a famous container. But honestly, m4 just a tiny container, I mean it is a demo, in order to learn how container to work.
+m4 is a tiny container, I mean it's just a demo, in order to learn how does container created and worked. And now, I get it!
 
 
 ## Points
 
-- Use clone() system call to create the child process
-- Use execvp() to load a program with `/bin/sh`
-- Use clearenv() to remove environment variables
-- Use UTS Linux namespaces 
-- `/sys/fs/cgroup` always use to mount cgfs
-
+- `clone()/fork()` to create the process
+- `exec()` to load a binary image
+- `clearenv()` to remove environment variables
+- `UTS(Universal Time Sharing)` namespace use to implement basic ioslation
+- `chroot()` to change the root directory
+- `mount` & `unmount` /proc before start and exit container
+- `cgroup(/sys/fs/cgroup)` to implement Linux resource isolation
+    - when we run command `sudo mkdir -p /sys/fs/cgroup/pids/container/`, cgroup will generates follows files: cgroup.clone_children, cgroup.procs, notify_on_release, pids.current,  pids.events, pids.max, tasks. And someone need us to modify.
 
 ## Usage
 
@@ -21,9 +23,8 @@ Do you know the Docker? Yeah, it is a famous container. But honestly, m4 just a 
 You can build this program by `make` command or run follows command alone under the src/:
 
 ```Shell
-$ gcc -I ../include m4.cpp -o m4 -std=c++11
+$ g++ -I ../include m4.cpp -o m4 -std=c++11
 ```
-
 
 ## Screenshot
 

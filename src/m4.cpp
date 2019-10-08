@@ -26,8 +26,8 @@ void limit_process_creation() {
 
     // 在CGROUP_PATH文件夹下写入相应规则
     write_rule(concat(CGROUP_PATH, "pids.max"), "5"); // 设置最大可创建进程数量
-    write_rule(concat(CGROUP_PATH, "notify_on_release"), "1");
-    write_rule(concat(CGROUP_PATH, "cgroup.procs"), pid);
+    write_rule(concat(CGROUP_PATH, "notify_on_release"), "1"); // 更新notify_on_release为1来通知系统释放资源
+    write_rule(concat(CGROUP_PATH, "cgroup.procs"), pid); // 附加进程
 }
 
 void setup_var() {
