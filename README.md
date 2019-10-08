@@ -4,6 +4,7 @@
 
 m4 is a tiny container, I mean it's just a demo, in order to learn how does container created and worked. And now, I get it!
 
+> Reference partial introduction [here](https://github.com/i0Ek3/m4/blob/master/doc/intro.md).
 
 ## Points
 
@@ -55,5 +56,9 @@ $ g++ -I ../include m4.cpp -o m4 -std=c++11
 
 ## Credit
 
-Big thanks to César Valdez for his tutorial.
+Big thanks to César Valdez for his [tutorial](http://cesarvr.github.io/post/2018-05-22-create-containers/).
 
+## References
+
+- [http://www.alloyteam.com/2019/07/13885/](http://www.alloyteam.com/2019/07/13885/)
+- [https://www.ibm.com/developerworks/cn/linux/1506_cgroup/index.html](https://www.ibm.com/developerworks/cn/linux/1506_cgroup/index.html)
