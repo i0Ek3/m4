@@ -29,30 +29,16 @@ $ g++ -I ../include m4.cpp -o m4 -std=c++11
 
 ## Screenshot
 
-![](https://github.com/i0Ek3/m4/blob/master/pic/m4.png)
+![](https://github.com/i0Ek3/m4/blob/master/m4.png)
 
 
 ## Problems
 
-- How to isolate shell process?
-    
-    use getpid() and CLONE_NEWPID flag in clone()
-
-- How to isolate the folders process can access?
-
-    using chroot() and chdir()
-
-- How to limiting process ceration?
-
-    Linux Control Group or cgroup
-
-- How about performance?
-
-    Good, you can set the cgroup rules to control container consume
-
-- What’s the difference between VM and Containers?
-
-    I think containers faster than VM cause of you just run only your process and it's dependencies in container, but in VM, you need to executing a bunch of OS libraries on the top, which need more overhead.
+- How to isolate shell process? `Using getpid() and CLONE_NEWPID flag in clone()`
+- How to isolate the folders process can access? `Using chroot() and chdir()`
+- How to limiting process ceration? `Linux Control Group or cgroup`
+- How about performance? `Set the cgroup rules to control container consume`
+- What’s the difference between VM and Containers? `I think containers faster than VM cause of you just run only your process and it's dependencies in container, but in VM, you need to executing a bunch of OS libraries on the top, which need more overhead`
 
 ## Credit
 
