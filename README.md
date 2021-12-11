@@ -4,7 +4,7 @@
 
 m4 is a tiny container, I mean it's just a demo, in order to learn how does container created and worked. And now, I get it!
 
-> Reference partial introduction [here](https://github.com/i0Ek3/m4/blob/master/doc/intro.md).
+> Reference partial introduction [here](https://github.com/i0Ek3/m4/blob/master/intro.md).
 
 ## Points
 
