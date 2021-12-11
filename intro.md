@@ -55,4 +55,5 @@ Docker 中，通过 Linux Namespace 进行网络、进程空间、命名空间�
 
 - [https://kknews.cc/code/k2qpn6p.html](https://kknews.cc/code/k2qpn6p.html)
 - [https://blog.lizzie.io/linux-containers-in-500-loc.html](https://blog.lizzie.io/linux-containers-in-500-loc.html)
-
+- [https://zhuanlan.zhihu.com/p/434731896](https://zhuanlan.zhihu.com/p/434731896)
+- [https://moelove.info/2021/12/10/搞懂容器技术的基石-namespace-上/](https://moelove.info/2021/12/10/搞懂容器技术的基石-namespace-上/)
